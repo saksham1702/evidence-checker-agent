@@ -1,0 +1,26 @@
+[
+  {
+    "source": "https://gdpr-info.eu/art-33-gdpr/",
+    "note": "GDPR Article 33, the rule text itself. Should back r1."
+  },
+  {
+    "source": "https://www.eu-digital-services-act.com/Digital_Services_Act_Article_26.html",
+    "note": "DSA Article 26, the rule text itself. Should back r2."
+  },
+  {
+    "source": "https://www.hunton.com/privacy-and-cybersecurity-law-blog/dutch-regulator-fines-booking-com-475000-euros-for-late-breach-reporting",
+    "note": "Law firm blog: Booking.com fined for reporting a breach 22 days late. A company breaking r1."
+  },
+  {
+    "source": "https://www.loyensloeff.com/insights/news--events/news/esg-update-green-claims-directive-is-here-to-stay/",
+    "note": "Law firm update (2025): Green Claims Directive not withdrawn, Commission recommitted. Only a proposal, so r3 is unclear."
+  },
+  {
+    "source": "https://www.usetappr.com/regulation/green-claims-directive/",
+    "note": "Guide (2026): Green Claims Directive being withdrawn. Disagrees with the Loyens update; mixed on r3; long page, so the saved text is cut."
+  },
+  {
+    "source": "https://www.ft.com/content/b08940fb-75a1-488f-940b-379d39238feb",
+    "note": "Paywalled news article on carbon removal. Should fail to load."
+  }
+]

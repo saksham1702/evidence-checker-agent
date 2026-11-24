@@ -1,0 +1,687 @@
+{
+  "run": {
+    "generated_at": "2026-11-24T08:41:58+00:00",
+    "model": "openai/gpt-oss-120b",
+    "max_steps": 3,
+    "steps_used": 2,
+    "steps": [
+      {
+        "step": 1,
+        "sources": [
+          "ev_1",
+          "ev_2",
+          "ev_3",
+          "ev_4",
+          "ev_5"
+        ],
+        "passages_kept": 11,
+        "quotes_rejected": 3
+      },
+      {
+        "step": 2,
+        "sources": [
+          "ev_3",
+          "ev_5"
+        ],
+        "passages_kept": 4,
+        "quotes_rejected": 0
+      }
+    ],
+    "unverified_after_limit": {},
+    "llm": {
+      "api_calls": 17,
+      "cache_hits": 2,
+      "tokens": 31054
+    }
+  },
+  "sources": [
+    {
+      "id": "ev_1",
+      "source": "https://gdpr-info.eu/art-33-gdpr/",
+      "note": "GDPR Article 33, the rule text itself. Should back r1.",
+      "status": "ok",
+      "http_status": 200,
+      "detail": "",
+      "chars": 1929,
+      "truncated": false,
+      "sha256": "9881b8d1749a70a60f03551b6088a0c92f93a2768b20d624691ca101ca0b6934",
+      "snapshot": "snapshots/ev_1.txt"
+    },
+    {
+      "id": "ev_2",
+      "source": "https://www.eu-digital-services-act.com/Digital_Services_Act_Article_26.html",
+      "note": "DSA Article 26, the rule text itself. Should back r2.",
+      "status": "ok",
+      "http_status": 200,
+      "detail": "",
+      "chars": 2152,
+      "truncated": false,
+      "sha256": "f6cc9957e78d6868f950b9914778c0e12b61e5f1a822dc826e1b68df54cbec65",
+      "snapshot": "snapshots/ev_2.txt"
+    },
+    {
+      "id": "ev_3",
+      "source": "https://www.hunton.com/privacy-and-cybersecurity-law-blog/dutch-regulator-fines-booking-com-475000-euros-for-late-breach-reporting",
+      "note": "Law firm blog: Booking.com fined for reporting a breach 22 days late. A company breaking r1.",
+      "status": "ok",
+      "http_status": 200,
+      "detail": "",
+      "chars": 1854,
+      "truncated": false,
+      "sha256": "6bf15809cf3582bd9804c150ab77259f40a9691a52b8047a67c4f2693f11f241",
+      "snapshot": "snapshots/ev_3.txt"
+    },
+    {
+      "id": "ev_4",
+      "source": "https://www.loyensloeff.com/insights/news--events/news/esg-update-green-claims-directive-is-here-to-stay/",
+      "note": "Law firm update (2025): Green Claims Directive not withdrawn, Commission recommitted. Only a proposal, so r3 is unclear.",
+      "status": "ok",
+      "http_status": 200,
+      "detail": "",
+      "chars": 2280,
+      "truncated": false,
+      "sha256": "81dade3bc43fa40ba9034f1db811e06531cbd373a05daf9a9f3a76f61b0b7487",
+      "snapshot": "snapshots/ev_4.txt"
+    },
+    {
+      "id": "ev_5",
+      "source": "https://www.usetappr.com/regulation/green-claims-directive/",
+      "note": "Guide (2026): Green Claims Directive being withdrawn. Disagrees with the Loyens update; mixed on r3; long page, so the saved text is cut.",
+      "status": "ok",
+      "http_status": 200,
+      "detail": "text cut to the first 7994 characters",
+      "chars": 7994,
+      "truncated": true,
+      "sha256": "e0a5b425f8092b5618e0390902acacbd8d994f47cbe98a27df1627df8aaca53e",
+      "snapshot": "snapshots/ev_5.txt"
+    },
+    {
+      "id": "ev_6",
+      "source": "https://www.ft.com/content/b08940fb-75a1-488f-940b-379d39238feb",
+      "note": "Paywalled news article on carbon removal. Should fail to load.",
+      "status": "blocked",
+      "http_status": 403,
+      "detail": "HTTP 403 Forbidden",
+      "chars": 0,
+      "truncated": false,
+      "sha256": null
+    }
+  ],
+  "passages": [
+    {
+      "id": "ev_1.p1",
+      "source_id": "ev_1",
+      "rule_id": "r1",
+      "quote": "1In the case of a personal data breach, the controller shall without undue delay and, where feasible, not later than 72 hours after having become aware of it, notify the personal data breach to the supervisory authority competent in accordance with Article 55, unless the personal data breach is unlikely to result in a risk to the rights and freedoms of natural persons.",
+      "start": 2,
+      "end": 373,
+      "clarity": "clear",
+      "note": "States the 72‑hour reporting deadline for controllers.",
+      "step": 1
+    },
+    {
+      "id": "ev_1.p2",
+      "source_id": "ev_1",
+      "rule_id": "r1",
+      "quote": "2Where the notification to the supervisory authority is not made within 72 hours, it shall be accompanied by reasons for the delay.",
+      "start": 374,
+      "end": 505,
+      "clarity": "clear",
+      "note": "Specifies consequence if the 72‑hour deadline is missed.",
+      "step": 1
+    },
+    {
+      "id": "ev_1.p3",
+      "source_id": "ev_1",
+      "rule_id": "r1",
+      "quote": "The processor shall notify the controller without undue delay after becoming aware of a personal data breach.",
+      "start": 508,
+      "end": 617,
+      "clarity": "clear",
+      "note": "Shows the processor’s duty to inform the controller promptly.",
+      "step": 1
+    },
+    {
+      "id": "ev_2.p1",
+      "source_id": "ev_2",
+      "rule_id": "r2",
+      "quote": "that the information is an advertisement, including through prominent markings, which might follow standards pursuant to Article 44;",
+      "start": 371,
+      "end": 503,
+      "clarity": "clear",
+      "note": "Specifies that ads must be clearly identified.",
+      "step": 1
+    },
+    {
+      "id": "ev_2.p2",
+      "source_id": "ev_2",
+      "rule_id": "r2",
+      "quote": "meaningful information directly and easily accessible from the advertisement about the main parameters used to determine the recipient to whom the advertisement is presented and, where applicable, about how to change those parameters.",
+      "start": 738,
+      "end": 972,
+      "clarity": "clear",
+      "note": "Requires explanation of why a user sees the ad (parameters).",
+      "step": 1
+    },
+    {
+      "id": "ev_2.p3",
+      "source_id": "ev_2",
+      "rule_id": "r2",
+      "quote": "Providers of online platforms shall provide recipients of the service with a functionality to declare whether the content they provide is or contains commercial communications.",
+      "start": 976,
+      "end": 1152,
+      "clarity": "clear",
+      "note": "Mandates a tool for users to label commercial content.",
+      "step": 1
+    },
+    {
+      "id": "ev_3.p1",
+      "source_id": "ev_3",
+      "rule_id": "r1",
+      "quote": "On March 31, 2021, the Dutch Data Protection Authority (Autoriteit Persoonsgegevens, the “Dutch DPA”), announced a fine of €475,000 for Dutch headquartered online travel agency Booking.com for failure to report a data breach within 72 hours of becoming aware of the incident in 2019.",
+      "start": 0,
+      "end": 283,
+      "clarity": "clear",
+      "note": "Complete sentence stating the breach‑reporting requirement and the fine, clearly relevant to r1.",
+      "step": 1
+    },
+    {
+      "id": "ev_4.p1",
+      "source_id": "ev_4",
+      "rule_id": "r3",
+      "quote": "The Green Claims Directive proposal aims to combat greenwashing by requiring companies to substantiate, communicate and verify green claims (please be referred to our earlier publication on this).",
+      "start": 54,
+      "end": 250,
+      "clarity": "clear",
+      "note": "The sentence explicitly states the requirement to substantiate and verify green claims, directly relating to rule r3.",
+      "step": 1
+    },
+    {
+      "id": "ev_5.p1",
+      "source_id": "ev_5",
+      "rule_id": "r3",
+      "quote": "Proof first: explicit green claims would have needed recognised scientific evidence, with significant impacts assessed across the product's life cycle.",
+      "start": 554,
+      "end": 705,
+      "clarity": "clear",
+      "note": "Quote directly states proof is required for green claims.",
+      "step": 1
+    },
+    {
+      "id": "ev_5.p2",
+      "source_id": "ev_5",
+      "rule_id": "r3",
+      "quote": "Under the EU Green Claims Directive, explicit claims like these would have needed scientific proof and an independent check.",
+      "start": 1486,
+      "end": 1610,
+      "clarity": "clear",
+      "note": "Clearly describes the need for scientific proof and independent verification.",
+      "step": 1
+    },
+    {
+      "id": "ev_5.p3",
+      "source_id": "ev_5",
+      "rule_id": "r3",
+      "quote": "Independent checks before you publish a claim were part of the proposal, not a rule in force.",
+      "start": 4878,
+      "end": 4971,
+      "clarity": "clear",
+      "note": "Indicates that verification was only proposed, not currently mandatory.",
+      "step": 1
+    },
+    {
+      "id": "ev_3.p2",
+      "source_id": "ev_3",
+      "rule_id": "r1",
+      "quote": "In a statement (in Dutch) the Dutch DPA noted that Booking.com was informed of the breach on January 13, 2019, but only reported the incident to the regulator on February 7, 2019, some 22 days later and well outside the 72 hour timeframe mandated by Article 33 of the GDPR.",
+      "start": 539,
+      "end": 812,
+      "clarity": "clear",
+      "note": "Exact sentence detailing the delay and the 72‑hour deadline.",
+      "step": 2
+    },
+    {
+      "id": "ev_5.p4",
+      "source_id": "ev_5",
+      "rule_id": "r3",
+      "quote": "Checked before use: independent verifiers would have checked claims and labelling schemes, then issued an EU-wide certificate of conformity.",
+      "start": 706,
+      "end": 846,
+      "clarity": "clear",
+      "note": "Mentions independent verification and certification.",
+      "step": 2
+    },
+    {
+      "id": "ev_5.p5",
+      "source_id": "ev_5",
+      "rule_id": "r3",
+      "quote": "The Empowering Consumers Directive, Directive (EU) 2024/825, bans generic claims like \"green\" or \"eco-friendly\". You may use one only if you prove \"recognised excellent environmental performance\" for that claim. That means an EU Ecolabel, a recognised national eco-label such as Nordic Swan, or top performance under other EU law.",
+      "start": 2705,
+      "end": 3035,
+      "clarity": "clear",
+      "note": "Shows current rule requiring proven performance for green claims.",
+      "step": 2
+    },
+    {
+      "id": "ev_5.p6",
+      "source_id": "ev_5",
+      "rule_id": "r3",
+      "quote": "It also bans \"carbon neutral\" claims based on offsetting.",
+      "start": 3036,
+      "end": 3093,
+      "clarity": "clear",
+      "note": "Specifies ban on carbon neutral claims without proof.",
+      "step": 2
+    }
+  ],
+  "rejected_quotes": [
+    {
+      "source_id": "ev_3",
+      "rule_id": "r1",
+      "quote": "The Dutch DPA noted that Booking.com was informed of the breach on January 13, 2019, but only reported the incident to the regulator on February 7, 2019, some 22 days later and well outside the 72 hour timeframe mandated by Article 33 of the GDPR.",
+      "step": 1
+    },
+    {
+      "source_id": "ev_5",
+      "rule_id": "r3",
+      "quote": "Empowering Consumers Directive ... bans generic claims like \"green\" or \"eco-friendly\". You may use one only if you prove \"recognised excellent environmental performance\" for that claim. That means an EU Ecolabel, a recognised national eco-label such as Nordic Swan, or top performance under other EU law.",
+      "step": 1
+    },
+    {
+      "source_id": "ev_5",
+      "rule_id": "r3",
+      "quote": "The ban on generic claims you cannot back with an EU Ecolabel or similar recognised proof is not. It has applied since 27 September 2026, under the Empowering Consumers Directive.",
+      "step": 1
+    }
+  ],
+  "rules": [
+    {
+      "rule_id": "r1",
+      "rule": "Companies must report major personal data breaches to the data protection authority within 72 hours of becoming aware of them.",
+      "needs_human_review": true,
+      "counts": {
+        "pass": 1,
+        "fail": 1,
+        "conflict": 0,
+        "abstain": 4
+      },
+      "pages": [
+        {
+          "source_id": "ev_1",
+          "result": "pass",
+          "reason": "The page states that controllers must notify the supervisory authority no later than 72 hours after becoming aware of a breach, satisfying the rule's 72‑hour reporting requirement for major breaches.",
+          "citations": [
+            {
+              "id": "ev_1.p1",
+              "quote": "1In the case of a personal data breach, the controller shall without undue delay and, where feasible, not later than 72 hours after having become aware of it, notify the personal data breach to the supervisory authority competent in accordance with Article 55, unless the personal data breach is unlikely to result in a risk to the rights and freedoms of natural persons."
+            }
+          ],
+          "abstain_reason": null,
+          "draft_result": "pass",
+          "changed_by": null,
+          "self_check": {
+            "rule_id": "r1",
+            "quotes_found": true,
+            "supports_result": true,
+            "still_unclear": false,
+            "keep": true,
+            "note": "Quote matches text and supports the 72‑hour reporting requirement for major breaches."
+          },
+          "code_check_notes": [],
+          "needs_human_review": false
+        },
+        {
+          "source_id": "ev_2",
+          "result": "abstain",
+          "reason": "No passage on this page relates to this rule.",
+          "citations": [],
+          "abstain_reason": "no_relevant_text",
+          "draft_result": null,
+          "changed_by": null,
+          "self_check": null,
+          "code_check_notes": [],
+          "needs_human_review": true
+        },
+        {
+          "source_id": "ev_3",
+          "result": "fail",
+          "reason": "The page reports that Booking.com reported the breach 22 days later, violating the 72‑hour reporting requirement.",
+          "citations": [
+            {
+              "id": "ev_3.p1",
+              "quote": "On March 31, 2021, the Dutch Data Protection Authority (Autoriteit Persoonsgegevens, the “Dutch DPA”), announced a fine of €475,000 for Dutch headquartered online travel agency Booking.com for failure to report a data breach within 72 hours of becoming aware of the incident in 2019."
+            },
+            {
+              "id": "ev_3.p2",
+              "quote": "In a statement (in Dutch) the Dutch DPA noted that Booking.com was informed of the breach on January 13, 2019, but only reported the incident to the regulator on February 7, 2019, some 22 days later and well outside the 72 hour timeframe mandated by Article 33 of the GDPR."
+            }
+          ],
+          "abstain_reason": null,
+          "draft_result": "fail",
+          "changed_by": null,
+          "self_check": {
+            "rule_id": "r1",
+            "quotes_found": true,
+            "supports_result": true,
+            "still_unclear": false,
+            "keep": true,
+            "note": "All cited quotes appear verbatim and clearly demonstrate the 22‑day reporting delay, confirming the failure result."
+          },
+          "code_check_notes": [],
+          "needs_human_review": true
+        },
+        {
+          "source_id": "ev_4",
+          "result": "abstain",
+          "reason": "No passage on this page relates to this rule.",
+          "citations": [],
+          "abstain_reason": "no_relevant_text",
+          "draft_result": null,
+          "changed_by": null,
+          "self_check": null,
+          "code_check_notes": [],
+          "needs_human_review": true
+        },
+        {
+          "source_id": "ev_5",
+          "result": "abstain",
+          "reason": "No passage on this page relates to this rule.",
+          "citations": [],
+          "abstain_reason": "no_relevant_text",
+          "draft_result": null,
+          "changed_by": null,
+          "self_check": null,
+          "code_check_notes": [],
+          "needs_human_review": true
+        },
+        {
+          "source_id": "ev_6",
+          "result": "abstain",
+          "reason": "The page did not load (blocked: HTTP 403 Forbidden), so there is no text to check.",
+          "citations": [],
+          "abstain_reason": "page_blocked",
+          "draft_result": null,
+          "changed_by": null,
+          "self_check": null,
+          "code_check_notes": [],
+          "needs_human_review": true
+        }
+      ],
+      "cross_page": {
+        "status": "conflict",
+        "conflicts": [
+          {
+            "summary": "One page backs this rule while another page goes against it.",
+            "side_a": [
+              "ev_1.p1"
+            ],
+            "side_b": [
+              "ev_3.p1",
+              "ev_3.p2"
+            ],
+            "found_by": "code"
+          }
+        ],
+        "note": ""
+      }
+    },
+    {
+      "rule_id": "r2",
+      "rule": "Online platforms must clearly label paid ads and explain why a user sees them.",
+      "needs_human_review": true,
+      "counts": {
+        "pass": 1,
+        "fail": 0,
+        "conflict": 0,
+        "abstain": 5
+      },
+      "pages": [
+        {
+          "source_id": "ev_1",
+          "result": "abstain",
+          "reason": "No passage on this page relates to this rule.",
+          "citations": [],
+          "abstain_reason": "no_relevant_text",
+          "draft_result": null,
+          "changed_by": null,
+          "self_check": null,
+          "code_check_notes": [],
+          "needs_human_review": true
+        },
+        {
+          "source_id": "ev_2",
+          "result": "pass",
+          "reason": "The page states ads must be clearly identified and provides accessible information on the parameters determining why a user sees each ad, satisfying both labeling and explanation requirements.",
+          "citations": [
+            {
+              "id": "ev_2.p1",
+              "quote": "that the information is an advertisement, including through prominent markings, which might follow standards pursuant to Article 44;"
+            },
+            {
+              "id": "ev_2.p2",
+              "quote": "meaningful information directly and easily accessible from the advertisement about the main parameters used to determine the recipient to whom the advertisement is presented and, where applicable, about how to change those parameters."
+            }
+          ],
+          "abstain_reason": null,
+          "draft_result": "pass",
+          "changed_by": null,
+          "self_check": {
+            "rule_id": "r2",
+            "quotes_found": true,
+            "supports_result": true,
+            "still_unclear": false,
+            "keep": true,
+            "note": "All cited quotes match the saved text and they substantiate the rule, with no ambiguity."
+          },
+          "code_check_notes": [],
+          "needs_human_review": false
+        },
+        {
+          "source_id": "ev_3",
+          "result": "abstain",
+          "reason": "No passage on this page relates to this rule.",
+          "citations": [],
+          "abstain_reason": "no_relevant_text",
+          "draft_result": null,
+          "changed_by": null,
+          "self_check": null,
+          "code_check_notes": [],
+          "needs_human_review": true
+        },
+        {
+          "source_id": "ev_4",
+          "result": "abstain",
+          "reason": "No passage on this page relates to this rule.",
+          "citations": [],
+          "abstain_reason": "no_relevant_text",
+          "draft_result": null,
+          "changed_by": null,
+          "self_check": null,
+          "code_check_notes": [],
+          "needs_human_review": true
+        },
+        {
+          "source_id": "ev_5",
+          "result": "abstain",
+          "reason": "No passage on this page relates to this rule.",
+          "citations": [],
+          "abstain_reason": "no_relevant_text",
+          "draft_result": null,
+          "changed_by": null,
+          "self_check": null,
+          "code_check_notes": [],
+          "needs_human_review": true
+        },
+        {
+          "source_id": "ev_6",
+          "result": "abstain",
+          "reason": "The page did not load (blocked: HTTP 403 Forbidden), so there is no text to check.",
+          "citations": [],
+          "abstain_reason": "page_blocked",
+          "draft_result": null,
+          "changed_by": null,
+          "self_check": null,
+          "code_check_notes": [],
+          "needs_human_review": true
+        }
+      ],
+      "cross_page": {
+        "status": "no_conflict",
+        "conflicts": [],
+        "note": "Fewer than two pages had evidence for this rule, so there is nothing to compare."
+      }
+    },
+    {
+      "rule_id": "r3",
+      "rule": "Products sold with a 'green' or 'carbon neutral' claim must back it up with verified proof.",
+      "needs_human_review": true,
+      "counts": {
+        "pass": 0,
+        "fail": 0,
+        "conflict": 1,
+        "abstain": 5
+      },
+      "pages": [
+        {
+          "source_id": "ev_1",
+          "result": "abstain",
+          "reason": "No passage on this page relates to this rule.",
+          "citations": [],
+          "abstain_reason": "no_relevant_text",
+          "draft_result": null,
+          "changed_by": null,
+          "self_check": null,
+          "code_check_notes": [],
+          "needs_human_review": true
+        },
+        {
+          "source_id": "ev_2",
+          "result": "abstain",
+          "reason": "No passage on this page relates to this rule.",
+          "citations": [],
+          "abstain_reason": "no_relevant_text",
+          "draft_result": null,
+          "changed_by": null,
+          "self_check": null,
+          "code_check_notes": [],
+          "needs_human_review": true
+        },
+        {
+          "source_id": "ev_3",
+          "result": "abstain",
+          "reason": "No passage on this page relates to this rule.",
+          "citations": [],
+          "abstain_reason": "no_relevant_text",
+          "draft_result": null,
+          "changed_by": null,
+          "self_check": null,
+          "code_check_notes": [],
+          "needs_human_review": true
+        },
+        {
+          "source_id": "ev_4",
+          "result": "abstain",
+          "reason": "Self-check doubt: Quote matches, but the text refers to a proposal, not a binding rule, so it does not support the pass result and the status is uncertain. (draft was pass: The passage explicitly states that companies must substantiate, communicate and verify green claims, which satisfies the requirement to back up 'green' or 'carbon neutral' claims with verified proof.)",
+          "citations": [
+            {
+              "id": "ev_4.p1",
+              "quote": "The Green Claims Directive proposal aims to combat greenwashing by requiring companies to substantiate, communicate and verify green claims (please be referred to our earlier publication on this)."
+            }
+          ],
+          "abstain_reason": "self_check_doubt",
+          "draft_result": "pass",
+          "changed_by": "self_check",
+          "self_check": {
+            "rule_id": "r3",
+            "quotes_found": true,
+            "supports_result": false,
+            "still_unclear": true,
+            "keep": false,
+            "note": "Quote matches, but the text refers to a proposal, not a binding rule, so it does not support the pass result and the status is uncertain."
+          },
+          "code_check_notes": [],
+          "needs_human_review": true
+        },
+        {
+          "source_id": "ev_5",
+          "result": "conflict",
+          "reason": "The page contains passages stating that verified proof is required for green or carbon neutral claims (e.g., ev_5.p1, ev_5.p2) and also a passage claiming verification is only proposed and not mandatory (ev_5.p3), creating contradictory statements.",
+          "citations": [
+            {
+              "id": "ev_5.p1",
+              "quote": "Proof first: explicit green claims would have needed recognised scientific evidence, with significant impacts assessed across the product's life cycle."
+            },
+            {
+              "id": "ev_5.p2",
+              "quote": "Under the EU Green Claims Directive, explicit claims like these would have needed scientific proof and an independent check."
+            },
+            {
+              "id": "ev_5.p5",
+              "quote": "The Empowering Consumers Directive, Directive (EU) 2024/825, bans generic claims like \"green\" or \"eco-friendly\". You may use one only if you prove \"recognised excellent environmental performance\" for that claim. That means an EU Ecolabel, a recognised national eco-label such as Nordic Swan, or top performance under other EU law."
+            },
+            {
+              "id": "ev_5.p6",
+              "quote": "It also bans \"carbon neutral\" claims based on offsetting."
+            },
+            {
+              "id": "ev_5.p3",
+              "quote": "Independent checks before you publish a claim were part of the proposal, not a rule in force."
+            }
+          ],
+          "conflict_sides": {
+            "side_a": [
+              "ev_5.p1",
+              "ev_5.p2",
+              "ev_5.p5",
+              "ev_5.p6"
+            ],
+            "side_b": [
+              "ev_5.p3"
+            ]
+          },
+          "abstain_reason": null,
+          "draft_result": "conflict",
+          "changed_by": null,
+          "self_check": {
+            "rule_id": "r3",
+            "quotes_found": true,
+            "supports_result": true,
+            "still_unclear": false,
+            "keep": true,
+            "note": "All cited quotes match the source and they demonstrate both a proof requirement and the lack of mandatory verification, confirming the draft’s conflict assessment."
+          },
+          "code_check_notes": [],
+          "needs_human_review": true
+        },
+        {
+          "source_id": "ev_6",
+          "result": "abstain",
+          "reason": "The page did not load (blocked: HTTP 403 Forbidden), so there is no text to check.",
+          "citations": [],
+          "abstain_reason": "page_blocked",
+          "draft_result": null,
+          "changed_by": null,
+          "self_check": null,
+          "code_check_notes": [],
+          "needs_human_review": true
+        }
+      ],
+      "cross_page": {
+        "status": "conflict",
+        "conflicts": [
+          {
+            "summary": "ev_4 states the Green Claims Directive proposal requires verification of green claims, while ev_5 says independent checks were only in the proposal and not a rule in force.",
+            "side_a": [
+              "ev_4.p1"
+            ],
+            "side_b": [
+              "ev_5.p3"
+            ],
+            "found_by": "ai"
+          }
+        ],
+        "note": ""
+      }
+    }
+  ]
+}

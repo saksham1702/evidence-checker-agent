@@ -1,0 +1,2 @@
+groq>=1.0
+trafilatura>=2.0

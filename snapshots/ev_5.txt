@@ -1,0 +1,57 @@
+Being withdrawn, not yet gone. The Green Claims Directive has not moved since 20 June 2025, when the Commission said it would withdraw the proposal, and on 4 November 2026 it put it on the list of proposals it will withdraw within six months. The third trilogue, the talks between Parliament, Council and Commission set for 23 June 2025, was cancelled. Since 27 September 2026, the anti-greenwashing rules you follow come from the Empowering Consumers Directive. If a green claim sits on your hang tag today, that is the law you answer to.
+Key takeaways
+Proof first: explicit green claims would have needed recognised scientific evidence, with significant impacts assessed across the product's life cycle.
+Checked before use: independent verifiers would have checked claims and labelling schemes, then issued an EU-wide certificate of conformity. Micro-enterprises had some exemptions.
+Being withdrawn: the Commission listed the proposal for withdrawal on 4 November 2026, expected by about May 2027. The Empowering Consumers Directive already applies.
+Labels under rules: labelling schemes would have to be transparent, proportionate for SMEs, expert-built, stakeholder-reviewed, with a complaints route.
+EU Green Claims Directive: what is a green claim?
+Any statement, label or image that says or implies a product, service or company is better for the environment. "Recycled", "climate neutral", "eco-friendly", a green leaf on the hang tag: all of these are green claims in EU law.
+Under the EU Green Claims Directive, explicit claims like these would have needed scientific proof and an independent check. Micro-enterprises had some exemptions. Those requirements are not in force. The ban on generic claims you cannot back with an EU Ecolabel or similar recognised proof is not. It has applied since 27 September 2026, under the Empowering Consumers Directive, in every country that has written it into national law; twenty had not finished by May 2026. That is one of the EU product rules in these guides.
+For a brand the question is not which directive survives. It is whether the evidence behind each claim exists and can be found.
+EU Green Claims Directive status in 2026: being withdrawn
+On 20 June 2025 the Commission announced it would withdraw the Green Claims Directive proposal. The reason given was feedback that the rules would fall too hard on micro-enterprises. The final negotiations between Parliament and Council were cancelled. Nothing has revived it since, and on 4 November 2026 the Commission put it on the list of proposals it will withdraw within six months. Until then, around May 2027, it is still pending on paper.
+Environmental claims are not unregulated in the meantime. The Empowering Consumers Directive, Directive (EU) 2024/825, bans generic claims like "green" or "eco-friendly". You may use one only if you prove "recognised excellent environmental performance" for that claim. That means an EU Ecolabel, a recognised national eco-label such as Nordic Swan, or top performance under other EU law. It also bans "carbon neutral" claims based on offsetting. These rules apply through national law. Check the national rules in each market where you sell.
+Parts of it may still land in other legislation, such as the Digital Fairness Act. Either way the evidence behind each claim is what a brand will be asked for; the Green Claims Directive status changes the paperwork, not the proof.
+Green Claims Directive
+- Proposed by the Commission in March 2023
+- Would have required proof and independent verification for covered claims
+- Withdrawal announced 20 Jun 2025, listed 4 Nov 2026
+- Withdrawal expected around May 2027
+- Status: Being withdrawn
+Empowering Consumers
+- Bans generic green claims without an EU Ecolabel or similar recognised proof
+- Bans neutrality claims based on carbon offsets
+- National laws due by 27 Mar 2026
+- Status: Applies since 27 Sep 2026 through national law
+Could the Green Claims Directive come back?
+Unlikely. The 2023 proposal is on its way out. The Empowering Consumers Directive already bans unproven green claims, and the proposed Digital Fairness Act would carry those bans over.
+The formal withdrawal, expected around May 2027, and the talks on the Digital Fairness Act, which would bring the green-claim bans together in one EU law.
+The Digital Fairness Act, proposed on 11 November 2026, keeps the green-claim bans from the Empowering Consumers Directive and would make them one EU law instead of 27 national ones.
+Will the Green Claims Directive apply in 2027?
+No. The proposal is not law, and the Commission plans to withdraw it by about May 2027.
+In 2027 you follow the claim rules already in force: each country's law under the Empowering Consumers Directive. Our Empowering Consumers Directive guide covers where each country stands. You do not need a Green Claims approval or certificate in 2027. Independent checks before you publish a claim were part of the proposal, not a rule in force.
+Why the Commission proposed it
+The directive started from one number: an EU study in 2020 found that more than half of environmental claims on the market were vague, misleading or unverified. Consumers cannot choose the better product if the claims cannot be compared.
+The proposal set EU-wide rules for how a claim is proven and communicated. It was written to work alongside the Empowering Consumers Directive. That directive sets the bans. This proposal said exactly what evidence a claim needs.
+What the directive set out to do
+- Fewer unproven claims on the EU market, and a faster move to circular products.
+- Consumers able to compare claims and act on them.
+- The same rules for every trader, so a brand that does the work is not undercut by one that only says it did.
+What the directive would have required
+Four pillars would have applied, each carried into national law by the member states: proof, communication, labelling schemes and verification. The flow for one claim looked like this.
+This describes the 2023 proposal, which has not been adopted. It covered explicit environmental claims made to consumers. Micro-enterprises were exempt from some proof and checking duties unless they opted in. It did not require a full life-cycle assessment for every claim.
+Brand Makes Claim
+The brand makes an environmental claim about a product or its operations and gathers the evidence.
+Independent Assessment
+An accredited verifier checks the claim against scientific evidence, lifecycle data and the relevant standards.
+Certificate of Conformity
+If it passes, an EU-wide certificate is issued and the claim can go on the label and into marketing.
+Proof: every claim substantiated before it is made
+Terms to know · Green Claim
+Any voluntary environmental claim made in commercial communications, such as "carbon neutral", "biodegradable", or "made from recycled materials", that must be substantiated with scientific evidence under this directive.
+A claim would need an assessment that says whether it covers the whole product or one part, and rests on scientific data and recognised standards. It would have to show a real benefit over the product's life, cover every relevant impact, go beyond what the law already requires, and beat the industry norm. Trade-offs, carbon offsets and the use of primary data would all have to be stated.
+A claim that one product has less impact than another would need the same data, method, scope, impacts and assumptions on both sides.
+Wording: how a claim may be stated
+A claim could be made only with the proof above behind it. If the benefit depends on how the product is used, the instructions go with the claim. A claim about the future needs a date. An overall score could use only an EU-approved method.
+With each claim: the environmental aspects covered, the standards applied, the studies and calculations, how the benefit was achieved, the certificate of conformity, any offsetting, and a plain summary in the language of the country of sale.
+Labels: only schemes with

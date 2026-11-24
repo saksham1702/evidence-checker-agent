@@ -1,0 +1,12 @@
+{
+  "_note": "Hand labels written before the first run on these pages. Used only by eval.py, never by the checker.",
+  "pages": {
+    "ev_1": {"r1": "pass",    "r2": "abstain", "r3": "abstain"},
+    "ev_2": {"r1": "abstain", "r2": "pass",    "r3": "abstain"},
+    "ev_3": {"r1": "fail",    "r2": "abstain", "r3": "abstain"},
+    "ev_4": {"r1": "abstain", "r2": "abstain", "r3": "abstain"},
+    "ev_5": {"r1": "abstain", "r2": "abstain", "r3": "conflict"},
+    "ev_6": {"r1": "abstain", "r2": "abstain", "r3": "abstain"}
+  },
+  "cross_page": {"r1": "conflict", "r2": "no_conflict", "r3": "conflict"}
+}
